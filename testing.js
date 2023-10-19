@@ -39,7 +39,7 @@ const RESOURCES = {
         web: "https://www.w3schools.com/js/js_function_invocation.asp"
     },
     createElement: {
-        course: "DOM Manipulation Module: Creating and Removing Elements",
+        course: "DOM Manipulation: Creating and Removing Elements",
         web: "https://www.javascripttutorial.net/javascript-dom/javascript-createelement/"
     },
     classListAdd: {
