@@ -179,7 +179,7 @@ function constructLateErrorMessage(testName, step) {
 }
 
 function outputPassMessage(testName) {
-    console.log("PASSED " + testName);
+    console.log(`${COLOR_CODE.green}PASSED ${testName}${COLOR_CODE.reset}`);
 }
 
 // Check if a function includes some text.
