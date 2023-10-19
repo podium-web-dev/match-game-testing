@@ -146,12 +146,12 @@ function callUserCode(code) {
 function constructResourceGuide(moduleContent, webContent) {
     let moduleText = "";
     if (moduleContent) {
-        moduleText = `\n${COLOR_CODE.cyan}Course Resource: ${COLOR_CODE.bgGreen}${moduleContent}${COLOR_CODE.reset}`;
+        moduleText = `\n${COLOR_CODE.cyan}${COLOR_CODE.underscore}HQ Resource:${COLOR_CODE.reset} ${moduleContent}`;
     }
 
     let webText = "";
     if (webContent) {
-        webText = `\n${COLOR_CODE.cyan}Web Resource: ${COLOR_CODE.bgGreen}${webContent}${COLOR_CODE.reset}`;
+        webText = `\n${COLOR_CODE.cyan}${COLOR_CODE.underscore}Web Resource:${COLOR_CODE.reset} ${webContent}`;
     }
 
     return `${moduleText}${webText}`;
